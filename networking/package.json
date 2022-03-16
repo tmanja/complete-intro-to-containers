@@ -1,7 +1,6 @@
 {
   "name": "networking",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hapi/hapi": "^18.4.0",
-    "hapi-pino": "^6.3.0",
-    "mongodb": "^3.3.5"
-  }
+    "@hapi/hapi": "^20.2.1",
+    "hapi-pino": "^9.2.0",
+    "mongodb": "^3.7.3",
+    "pino-pretty": "^7.5.3"
+  },
+  "description": ""
 }

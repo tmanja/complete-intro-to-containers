@@ -6,7 +6,7 @@ const dbName = "dockerApp";
 const collectionName = "count";
 
 async function start() {
-  const client = await MongoClient.connect(url);
+  const client = await MongoClient.connect(url, { useUnifiedTopology: true });
   const db = client.db(dbName);
   const collection = db.collection(collectionName);
 

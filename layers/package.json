@@ -9,9 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@hapi/hapi": "^18.4.0",
-    "hapi-pino": "^6.3.0",
-    "mongodb": "^3.3.5"
-  }
+  "dependencies": {}
 }
